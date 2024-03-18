@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor con DeepL API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Traductor con DeepL API</h1>
+    </header>
+    <main>
+        <section class="formulario">
+            <p>Escribe el texto que deseas traducir:</p>
+            <textarea id="texto-origen" rows="5" cols="50"></textarea>
+            <br>
+            <p>Selecciona el idioma de origen:</p>
+            <select id="idioma-origen"></select>
+            <br>
+            <p>Selecciona el idioma de destino:</p>
+            <select id="idioma-destino"></select>
+            <br>
+            <button id="btn-traducir">Traducir</button>
+        </section>
+        <section class="resultado">
+            <p>Traducción:</p>
+            <p id="texto-traducido"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
